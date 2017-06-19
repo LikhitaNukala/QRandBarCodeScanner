@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void QRScan(View view){
-        Log.d("qr scan","this func is invoked");
         try{
             Intent intent=new Intent(ACTION_SCAN);
             intent.putExtra("SCAN_MODE","QR_CODE_MODE");
